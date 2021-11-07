@@ -6,10 +6,11 @@
  ===================================================
 
 #>
+
 # Webhook provider
-$webhook = "https://prod-23.australiasoutheast.logic.azure.com:443/workflows/43a12597f45a494e8940004e1faa1ac7/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=D3W0MDDN023lNRuxhFZLrvAXiS478RKgmOM7loekZ_g"
-$customer ="ACME"
-$site = "Site B"
+$webhook = ""
+$customer =""
+$site = ""
 
 
 # Run shell file
