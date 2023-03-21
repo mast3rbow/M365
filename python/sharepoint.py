@@ -3,12 +3,11 @@ import json
 import requests
 import logging
 
-FROM_EMAIL = 'sender@example.com'
-TENANT_ID = 'f01737c6-9208-4ef0-8ba3-8636e1f0ab36'
-CLIENT_ID = '04391657-a342-43d6-9660-0f351df7cef0'
-CLIENT_SECRET = '038fe324-7073-4892-b4f3-ece8012a113b'
-TARGET_EMAIL = 'ben.smith@tbtcsanorth.com.au'
-URL = 'https://prod-45.westus.logic.azure.com:443/workflows/1e3a3b4e4e5c4d7a9b8a9b9b9b9b9b9b/triggers/manual/paths/invoke?api-version=2016-06-0'
+TENANT_ID = ''
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+TARGET_EMAIL = ''
+URL = ''
 
 def get_access_token(tenant_id, client_id, client_secret):
     """
